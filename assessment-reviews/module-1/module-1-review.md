@@ -10,9 +10,11 @@
 
 ### Questions
 
-1. What is HTML and what is it used for?
+1. What is HTML and what is it used for? hypertext markup language that are placed inside a file to edit words/text on a website. 
 2. What is the difference between an ID and a class?
+NEED TO STUDY
 3. What does it mean to write "semantic" HTML?
+To write code that modifies or defines the meaning of content on a webpage (not just the look of a page)
 
 ### Exercises
 
@@ -75,9 +77,36 @@
 ### Exercises
 
 1. Write a line that declares a variable called `myName` and set its value to your name.
+var myName = "Ann Murray";
+
 2. Write a loop that logs the numbers 1 through 10 to the console.
+
+for (var num = 0; num < 11; num++) 
+{
+console.log(num)
+}
+
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
+
+function winning(score,lives)
+{
+  if (score > 3 && lives > 0);  
+  { 
+    alert("You win!"); 
+  }
+};
+winning(4,1);
+
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
+
+var name = "Ann"
+
+function sayHello() 
+{
+  console.log("Hello, " + name + "!");
+}
+sayHello(name);
+
 5. What would the following script log to the console?
 
   ```javascript
@@ -123,7 +152,40 @@
   ```
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
+
+function findLongestWord()
+{
+  var words = ["Ann", "Benny", "Murray"];
+  var largestnumber = 0;
+  var maxword; 
+  
+  for (var i = 0; i < words.length; i++) 
+  {
+    if (words[i].length > largestnumber) 
+    {
+    maxword = words[i];
+    } 
+  }
+   console.log(maxword);
+}
+
+findLongestWord();
+
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
+
+function sum()
+{
+  amount = 0;
+  
+ for(var i=0; i<arguments.length; i++)
+    {
+      amount = amount + arguments[i];
+    }
+  console.log("the number is: " + amount);
+};
+
+sum(1,1,1,1,1,1);
+
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
