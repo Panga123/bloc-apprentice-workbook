@@ -10,31 +10,73 @@
 
 ### Questions
 
-1. What is HTML and what is it used for? hypertext markup language that are placed inside a file to edit words/text on a website. 
+1. What is HTML and what is it used for? 
+ANSWER: hypertext markup language that are placed inside a file to edit words/text on a website. 
+
 2. What is the difference between an ID and a class?
 NEED TO STUDY
+
 3. What does it mean to write "semantic" HTML?
 To write code that modifies or defines the meaning of content on a webpage (not just the look of a page)
 
 ### Exercises
 
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
+
+<p class="highlight">Watch Out!</p>
+
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
+
+<img src="profile-picture.jpg">
+
 3. Write a link tag that links to http://google.com.
+<a href = "http://www.google.com">Take me to Google</a>
+
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <head/>
+  <body>
+    <p></p>
+  </body>
+</html>
+
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
+
+
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <style type ="main.js">
+  <head/>
+  <body>
+    <p></p>
+  </body>
+</html>
+
 8. Write a numbered list in HTML and list three of your favorite books.
+
+<body>
+    <ul>
+      <li>The Season of the Witch</li>
+      <li> Woman in White</li>
+      <li>The Turn of the Screw</li>
+    </ul>
+    
 9. Fix the indentation of the following HTML sample:
 
   ```html
   <div>
-  <ul>
-  <li>Item 1</li>
-    <li>Item 2</li>
-  <li>Item 3</li>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
     </ul>
-    </div>
+  </div>
   ```
 
 ## CSS
@@ -42,8 +84,15 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 ### Questions
 
 1. What is CSS and what is it used for?
+ANSWER:
+CSS is a language used to styles HMTL language and set its look.
+
 2. What is the CSS box model?
+It controls the spacing and padding between boxes of each tag. 
+
 3. What's the difference between margin and padding?
+padding is the layer outside of the content.
+Margin is outside of the border, whic it oustside of the padding.
 
 ### Exercises
 
