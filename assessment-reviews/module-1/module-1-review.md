@@ -45,6 +45,15 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type=text/css href=main.js>
+  <head/>
+  <body>
+    <p></p>
+  </body>
+</html>
 
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 
@@ -91,12 +100,17 @@ CSS is a language used to styles HMTL language and set its look.
 It controls the spacing and padding between boxes of each tag. 
 
 3. What's the difference between margin and padding?
-padding is the layer outside of the content.
+Padding is the layer outside of the content.
 Margin is outside of the border, whic it oustside of the padding.
 
 ### Exercises
 
 1. Write a CSS rule to make the text of all `h1` tags red.
+
+h1 {
+ text-decoration-color:red;
+}
+
 2. Write a CSS rule to make the background color of the link with `class="btn"` blue:
 
   ```html
