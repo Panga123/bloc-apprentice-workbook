@@ -14,10 +14,10 @@
 ANSWER: hypertext markup language that are placed inside a file to edit words/text on a website. 
 
 2. What is the difference between an ID and a class?
-NEED TO STUDY
+ANSWER: Both ID and class are CSS selectors;  ID's cannot repeat and are unique, whereas class can be repeated and are not unique. 
 
 3. What does it mean to write "semantic" HTML?
-To write code that modifies or defines the meaning of content on a webpage (not just the look of a page)
+ANSWER: To write code that modifies or defines the meaning of content on a webpage (not just the look of a page)
 
 ### Exercises
 
@@ -33,6 +33,7 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 <a href = "http://www.google.com">Take me to Google</a>
 
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+ANSWER:
 
 <!DOCTYPE html>
 <html>
@@ -44,6 +45,7 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 </html>
 
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
+ANSWER:
 
 <!DOCTYPE html>
 <html>
@@ -56,6 +58,7 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 </html>
 
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
+ANSWER: 
 
 <!DOCTYPE html>
 <html>
@@ -68,6 +71,7 @@ To write code that modifies or defines the meaning of content on a webpage (not 
 </html>
 
 8. Write a numbered list in HTML and list three of your favorite books.
+ANSWER:
 
 <body>
     <ul>
@@ -77,6 +81,7 @@ To write code that modifies or defines the meaning of content on a webpage (not 
     </ul>
     
 9. Fix the indentation of the following HTML sample:
+ANSWER:
 
   ```html
   <div>
@@ -97,27 +102,36 @@ ANSWER:
 CSS is a language used to styles HMTL language and set its look.
 
 2. What is the CSS box model?
-It controls the spacing and padding between boxes of each tag. 
+ANSWER: It controls the spacing and padding between boxes of each tag. 
 
 3. What's the difference between margin and padding?
+ANSWER: 
 Padding is the layer outside of the content.
-Margin is outside of the border, whic it oustside of the padding.
+Margin is outside of the border, which comes after the padding. 
 
 ### Exercises
 
 1. Write a CSS rule to make the text of all `h1` tags red.
+ANSWER:
 
 h1 {
  text-decoration-color:red;
 }
 
 2. Write a CSS rule to make the background color of the link with `class="btn"` blue:
+ANSWER:
 
   ```html
   <a href="#" class="btn">Learn more</a>
   ```
+btn {
+background-color:blue;
+
+{
 
 3. Write a CSS rule to give the first paragraph in the following HTML a font size of `20px`, but not the second paragraph.
+
+ANSWER:
 
   ```html
   <header class="jumbotron">
@@ -126,6 +140,11 @@ h1 {
 
   <p>Welcome to this awesome website!</p>
   ```
+  p jumbotron:first-child;
+
+  {
+  font-size: 20px;
+  }
 
 ## JavaScript
 
@@ -143,6 +162,7 @@ h1 {
 var myName = "Ann Murray";
 
 2. Write a loop that logs the numbers 1 through 10 to the console.
+ANSWER: 
 
 for (var num = 0; num < 11; num++) 
 {
@@ -150,6 +170,7 @@ console.log(num)
 }
 
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
+ANSWER:
 
 function winning(score,lives)
 {
@@ -162,6 +183,8 @@ winning(4,1);
 
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
 
+ANSWER:
+
 var name = "Ann"
 
 function sayHello() 
@@ -171,6 +194,7 @@ function sayHello()
 sayHello(name);
 
 5. What would the following script log to the console?
+ANSWER:  Friday, Friday
 
   ```javascript
   var currentSong = "Call Me Maybe";
@@ -185,6 +209,8 @@ sayHello(name);
   ```
 
 6. What would the following script log to the console?
+ANSWER:
+10
 
   ```javascript
   var add = function(a, b) {
@@ -197,6 +223,8 @@ sayHello(name);
   ```
 
 7. What would the following script log to the console?
+ANSWER: 
+Hello Sarah Goodbye Sarah!
 
   ```javascript
   var helloGoodbye = function(name) {
@@ -215,6 +243,7 @@ sayHello(name);
   ```
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
+ANSWER: Had issues with this one. 
 
 function findLongestWord()
 {
@@ -235,6 +264,7 @@ function findLongestWord()
 findLongestWord();
 
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
+ANSWER: Can't figure out why this doesn't work. 
 
 function sum()
 {
