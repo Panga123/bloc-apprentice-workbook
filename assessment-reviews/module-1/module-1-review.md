@@ -280,7 +280,32 @@ function sum()
 sum(1,1,1,1,1,1);
 
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+
+ANSWER: (had trouble with this one. It only shows up as false)
+
+function string()
+{
+  
+  var letter = "x"; 
+  var vowel = ["a", "e", "i", "o", "u"];
+  
+  for (var i=0; i < letter.length; i++) 
+  {
+    if (letter[i] === vowel)
+    {
+     return true; 
+    }
+ else
+    {
+      return false;
+    }
+  }
+};
+string("e");
+
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
+
+ANSWER:
 
   ```javascript
   var pet = {
