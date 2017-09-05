@@ -151,10 +151,22 @@ ANSWER:
 ### Questions
 
 1. What is a function? What are they used for?
+ANSWER: A function creates a process that it carries out whenever it is called. 
+
 2. What is the difference between `==` and `===`?
+'==' does any conversion it needs to before checking for equality.
+'===' does not convert either variables before checking for equality. Both numbers must be the exact same. 
+
 3. What is the difference between global and local scope variables?
+ANSWER: Global scope variables are recognized outside of the function and can be used throughout the program. 
+Local scope variables "die" after each function and cannot be used in the program.
+
 4. What is a boolean value?
+ANSWER:
+A boolean data type only has two possible responses:  either true or false.
+
 5. What is an array?
+ANSWER: A group of multiple values, stored in a variable. 
 
 ### Exercises
 
