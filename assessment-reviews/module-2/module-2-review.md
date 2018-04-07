@@ -14,8 +14,14 @@
 
 1. What is the box model?
 2. What is the difference between block and inline elements?
+
+A: Block elements have display values set to bloc, which means they have a set width and height. Inline elements don't have defined width/height, and won't start a new paragraph automatically. 
+
 3. What is responsive design?
+
 4. Which selector is more specific, a tag selector or class selector?
+A: tag selector 
+
 5. What does `box-sizing` do?
 6. What's the difference between `relative` and `absolute` positioning?
 
@@ -26,7 +32,9 @@
   ```html
   <a href="#" class="btn">Learn more</a>
   ```
-
+.btn:hover {
+  background-color: blue; 
+}
 2. Write a CSS rule to give the `.container` a maximum width of `980px` when the browser window is wider than `1200px`:
 
   ```html
