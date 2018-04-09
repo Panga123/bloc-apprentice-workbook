@@ -13,6 +13,8 @@
 ### Questions
 
 1. What is the box model?
+A: A box that wraps around an html element that is made up of border, padding, and margin.
+
 2. What is the difference between block and inline elements?
 
 A: Block elements have display values set to bloc, which means they have a set width and height. Inline elements don't have defined width/height, and won't start a new paragraph automatically. 
@@ -23,6 +25,8 @@ A: Block elements have display values set to bloc, which means they have a set w
 A: tag selector 
 
 5. What does `box-sizing` do?
+A: it allows you to resize an HTML element as a group: When resizing, you are also resizing padding and border.
+
 6. What's the difference between `relative` and `absolute` positioning?
 
 ### Exercises
@@ -32,9 +36,11 @@ A: tag selector
   ```html
   <a href="#" class="btn">Learn more</a>
   ```
+ANSWER: 
 .btn:hover {
   background-color: blue; 
 }
+
 2. Write a CSS rule to give the `.container` a maximum width of `980px` when the browser window is wider than `1200px`:
 
   ```html
@@ -63,6 +69,7 @@ A: tag selector
     <p>Third paragraph</p>
   </section>
   ```
+ANSWER: "Third Paragraph"
 
 4. Open this [JSBin](http://jsbin.com/qigiwuhepe/1/edit?html,css,output). Write a CSS rule using floats to make the HTML sample into a four column layout. Paste your udpated link below.
 
