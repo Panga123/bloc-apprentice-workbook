@@ -83,19 +83,18 @@ ANSWER: "Third Paragraph"
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
 
-filterLongWords() {
+function filterLongWords(array, num) {
   
-
+  if (array.length > num) {
+   return array; 
+  }
+  
+  else {
+    console.log("Sorry, nothing was bigger than num");
+  }
 }
-return 
 
-//must count the number of letters within each word 
-//must loop through 
-// if word has 3 or more letters, store the word in an array 
-// must print out this 
-
-
-ANS:
+filterLongWords("alphamatrazc", 4); 
 
 
 
