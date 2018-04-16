@@ -78,6 +78,7 @@ ANSWER: "Third Paragraph"
 ### Questions
 
 1. What is a callback?
+When you force a function to wait for a separate function to fire.
 
 ### Exercises
 
