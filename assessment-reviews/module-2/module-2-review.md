@@ -82,6 +82,23 @@ ANSWER: "Third Paragraph"
 ### Exercises
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
+
+filterLongWords() {
+  
+
+}
+return 
+
+//must count the number of letters within each word 
+//must loop through 
+// if word has 3 or more letters, store the word in an array 
+// must print out this 
+
+
+ANS:
+
+
+
 2. Write a function `charFreq()` that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like `charFreq("abbabcbdbabdbdbabababcbcbab")`.
 
 ## DOM Scripting
