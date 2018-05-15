@@ -20,6 +20,7 @@ A: A box that wraps around an html element that is made up of border, padding, a
 A: Block elements have display values set to bloc, which means they have a set width and height. Inline elements don't have defined width/height, and won't start a new paragraph automatically. 
 
 3. What is responsive design?
+Using HTML and CSS to make a website look great on any screen. 
 
 4. Which selector is more specific, a tag selector or class selector?
 A: tag selector 
@@ -84,6 +85,8 @@ When you force a function to wait for a separate function to fire.
 
 1. Write a function `filterLongWords()` that takes an array of words and an integer `num` and returns the array of words that are longer than `num`.
 
+ANSWER: 
+
 function filterLongWords(array, num) {
   
   if (array.length > num) {
@@ -101,11 +104,33 @@ filterLongWords("alphamatrazc", 4);
 
 2. Write a function `charFreq()` that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like `charFreq("abbabcbdbabdbdbabababcbcbab")`.
 
+ANSWER:
+function charFreq(string) {
+  var freq = {};
+
+  for (var i=0; i<string.length; i++) {
+     var characters = string.charAt(i);
+     
+     if(freq[characters]) {
+       freq[characters]++;
+     }
+     else  {
+
+       freq[characters] = 1; 
+     }
+  }
+  return freq; 
+
+};
+
 ## DOM Scripting
 
 ### Questions
 
 1. What does DOM stand for and what is it?
+ANSWER:
+Document Object Model
+It's the browser's internal representation of a webpage. 
 
 ### Exercises
 
@@ -114,9 +139,19 @@ filterLongWords("alphamatrazc", 4);
   ```html
   <a href="#" id="next" class="btn">Next</a>
   ```
+  ANSWER:
+ var nextButton = .document.GetElementbyID("next");
+  
 
 2. Write another line that updates the text of `nextButton` to `"Next image"`.
+
+ANSWER:
+  var x = getElementByClassName("Next");
+  x[0].innerHTML = "Next Image";
+
 3. Write another line that adds a click event listener to `nextButton` so that when it's clicked the browser alerts `"Next image coming up."`.
+
+document.getElementbyID("btn").addEventListener("click", "Next image coming up.");
 
 ## jQuery
 
